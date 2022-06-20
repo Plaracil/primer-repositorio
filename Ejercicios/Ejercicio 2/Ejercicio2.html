@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Array</legend>
+        <form>
+        <input type="button" value="Valores String" onclick="valstring()">
+        <br>
+        <br>
+    
+        <input type="button" value="Valores Boolean" onclick="valbool()">
+        <br>
+        <br>
+
+        <input type="button" value="Valores Numeric" onclick="valnum()">
+        <br>
+        <br>
+        <hr>
+        <br>
+        <select name="accion" id="accion">
+            <option value="annadir">Añadir</option>
+            <option value="eliminar">Eliminar</option>
+        </select>
+        <select name="tipo" id="tipo">
+            <option value="string">String</option>
+            <option value="boolean">Boolean</option>
+            <option value="number">Number</option>
+        </select>
+        <br>
+        <br>
+        <input type="button" value="Enviar" onclick="añadiroeliminar()">
+        <br>
+        <br>
+        <input type="button" value="Cambiar" onclick="cuarto()">
+        </form>      
+    </fieldset>
+    <script src="ej2.js"></script>
+</body>
+</html>
